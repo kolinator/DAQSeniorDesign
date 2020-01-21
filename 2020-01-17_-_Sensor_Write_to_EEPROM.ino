@@ -19,7 +19,7 @@ void setup() {
   
   Serial.begin(9600); //initializes serial monitor (COMMAND+SHIFT+M) 
                       //in order to see data collection
-  calibrate_sensors;
+  calibrate_sensors();
 
 }
 void loop() {
